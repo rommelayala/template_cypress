@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress without cucumber",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cy:run:chrome": "cypress run -b chrome",
+    "cy:run:firefox": "cypress run -b firefox<"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Rommel",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.5.1"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
